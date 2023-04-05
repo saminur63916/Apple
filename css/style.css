@@ -1,0 +1,331 @@
+/*--body--*/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*home page css start*/
+/*--header css start--*/
+
+header{
+    background: #161617e0;
+}
+
+.header_wrapper{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--nav_logo--*/
+
+.nav_logo{
+    width: 10%;
+    text-align: end;
+    padding-top: 5px;
+}
+
+/*--nav--*/
+
+nav{
+    width: 61%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a{
+    color: #dadada;
+    text-decoration: none;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+/*--nav icon--*/
+
+.fa-solid{
+    padding-right: 40px;
+}
+
+/*--header css end--*/
+
+/*--1st section css start--*/
+/*--banner--*/
+
+.banner{
+    margin-top: -5px;
+}
+
+.apple_14pro{
+    width: 70%;
+}
+
+.banner h5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/*--1st section css end--*/
+
+/*--2st section css start--*/
+/*--banner_product--*/
+
+.banner_product{
+    padding-top: 50px;
+    background: black;
+}
+
+.banner_product_iphone_14 h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 20px;
+    color: black;
+}
+
+/*---product_img--*/
+
+.product_img{
+    text-align: center;
+}
+
+/*---product_a--*/
+
+.product_link{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.banner_product h5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 20px;
+    color: white;
+    margin-top: 0px;
+}
+
+.product_a{
+    color: #2997ff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -45px;
+}
+/*--2st section css end--*/
+
+/*--3rd section css start--*/
+
+.banner_product_iphone_14{
+    background: #FAFAFA;
+    padding-top: 50px;
+}
+
+.banner_product h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 20px;
+    color: white;
+}
+
+/*--iphone_14 h1-h6--*/
+
+.iphone_14_text_1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 20px;
+    color: black;
+    margin-top: 0px;
+}
+
+.iphone_14_text_2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 20px;
+    color: black;
+    margin-top: -30px;
+}
+
+/*---product_img--*/
+
+.product_img_iphone_14{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.iphone14_yollow_img{
+    width: 60%;
+}
+
+
+/*---product_a--*/
+
+.product_link_iphone_14{
+    text-align: center;
+    margin-top: -20px;
+}
+
+.product_a_iphone_14 a{
+    color: #2997ff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -45px;
+}
+
+/*--3rd section css end--*/
+
+/*--4th section css start--*/
+
+.product_img_watch{
+    width: 50%;
+}
+
+.product_img_apple{
+    text-align: center;
+    width: 100%;
+}
+
+.banner_product h3{
+    text-align: center;
+    color: rgb(172, 0, 0);
+    margin-top: -10px;
+}
+
+/*--4th section css end--*/
+
+/*--5rd section css start--*/
+/*--div wrapper--*/
+.showcase_wrapper{
+    width: 100%;
+    display: flex;
+}
+
+/*--dive image--*/
+.showcase_apple_images{
+    width: 98%;
+    padding-top: 10px;
+    margin-left: 7px;
+    margin-right: 5px;
+    justify-content: space-between;
+}
+
+.apple_product_details_showcase{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*--5t section css end--*/
+
+/*--6th section css start--*/
+
+.slider_div{
+    text-align: center;
+}
+
+.slider_images{
+    width: 100%;
+}
+
+/*--6th section css end--*/
+
+/*--7th section css start--*/
+
+.bottom_text{
+    background: #F5F5F7;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+}
+
+.footer{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.footer p{
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 0px;
+    color: rgb(66, 66, 66);
+}
+
+.footer strong{
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+    text-decoration-color: rgb(66, 66, 66);
+}
+
+/*--border_footer--*/
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*--7th section css end--*/
+
+/*--7th section css start--*/
+
+.bottom_text_2nd{
+    background: #F5F5F7;  
+    margin-top: -20px;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer_2nd{
+    width: 14%;
+}
+
+.footer_2nd p{
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 0px;
+    color: rgb(66, 66, 66);
+}
+
+.footer_2nd strong{
+    color: rgb(66, 66, 66);
+    margin-top: 15px;
+    text-decoration: none;
+    text-decoration-color: rgb(66, 66, 66);
+}
+
+/*--border_footer--*/
+span{
+    border:  solid 2px rgb(255, 0, 0);
+    width: 100%;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+/*--7th section css end--*/
+
+.apple_zero{
+    text-align: center;
+}
+
+.apple_15pro{
+    margin-top: -28px;
+}
+/*--home page css end--*/
